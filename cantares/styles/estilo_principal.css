@@ -1,0 +1,90 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+    background: url('../img/bg-igreja.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container {
+    width: 80%; /* Ajuste a largura conforme necessário */
+    max-width: 900px; /* Limite a largura máxima */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px;
+}
+
+header {
+    background-color: #174EA6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #174EA6;
+    color: white;
+}
+
+td a {
+    color: #174EA6;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+button {
+    background-color: #174EA6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #174EA6;
+}
+
+.back-button {
+    background-color: #45a049;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #d32f2f;
+}
